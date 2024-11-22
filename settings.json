@@ -24,10 +24,19 @@
                 {
                     "scope": [
                         "variable.other.property.go",
-                        "variable.other.go"
+                        "variable.other.go",
+                        "entity.name.function.support.go",
                     ],
                     "settings": {
-                        "foreground": "#ffffffd3"
+                        "foreground": "#EBDBB2",
+                    },
+                },
+                {
+                    "scope": [
+                        "entity.name.type.package.go",
+                    ],
+                    "settings": {
+                        "foreground": "#FABD2F"
                     }
                 }
             ]
@@ -48,7 +57,7 @@
     "git.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false,
@@ -74,7 +83,6 @@
     "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
     "[html]": {
         "editor.formatOnSave": false
     },
