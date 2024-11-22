@@ -1,0 +1,7 @@
+[
+    {
+        "key": "ctrl+shift+i",
+        "command": "workbench.action.quickchat.toggle",
+        "when": "chatIsEnabled"
+    }
+]
