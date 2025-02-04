@@ -47,12 +47,12 @@
     "editor.unicodeHighlight.nonBasicASCII": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
-    "files.exclude": {
-        "**/node_modules": true,
-        "**/package.json": true,
-        "**/package-lock.json": true,
-        "**/.gitignore": false
-    },
+    // "files.exclude": {
+    //     "**/node_modules": true,
+    //     "**/package.json": true,
+    //     "**/package-lock.json": true,
+    //     "**/.gitignore": false
+    // },
     "git.decorations.enabled": false,
     "git.enabled": true,
     "github.copilot.editor.enableAutoCompletions": true,
@@ -80,12 +80,15 @@
     "window.titleBarStyle": "custom",
     "window.zoomLevel": -0.6,
     "workbench.activityBar.location": "top",
-    "workbench.iconTheme": "gruvbox-material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.sideBar.location": "right",
     "[html]": {
         "editor.formatOnSave": false
     },
     "window.customTitleBarVisibility": "auto",
-    "workbench.colorTheme": "Gruvbox Dark Hard"
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.statusBar.visible": false,
+    "terminal.integrated.tabs.location": "left",
+    "workbench.iconTheme": "gruvbox-material-icon-theme"
 }
