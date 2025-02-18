@@ -1,6 +1,6 @@
 [
     {
-        "key": "ctrl+shift+i",
+        "key": "cmd+shift+i",
         "command": "workbench.action.quickchat.toggle",
         "when": "chatIsEnabled"
     },
@@ -13,5 +13,61 @@
         "key": "alt+left",
         "command": "workbench.action.previousEditor",
         "when": "!terminalFocus"
-    }
+    },
+    // --- MAC KEYBINDS --- //
+    // {
+    //     "key": "cmd+click",
+    //     "command": "editor.action.revealDefinition",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+right",
+    //     "command": "cursorWordStartRight",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+right",
+    //     "command": "-cursorWordEndRight",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+left",
+    //     "command": "cursorWordStartLeft",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+left",
+    //     "command": "-cursorWordEndLeft",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+up",
+    //     "command": "cursorUp",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+down",
+    //     "command": "cursorDown",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+shift+right",
+    //     "command": "cursorWordStartRightSelect",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+shift+left",
+    //     "command": "cursorWordStartLeftSelect",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+shift+up",
+    //     "command": "cursorUpSelect",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "cmd+shift+down",
+    //     "command": "cursorDownSelect",
+    //     "when": "editorTextFocus"
+    // }
 ]
